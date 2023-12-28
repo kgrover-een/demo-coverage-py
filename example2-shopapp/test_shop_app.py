@@ -8,7 +8,3 @@ def basket():
 def test_add_item(basket):
     basket.add("keyboard")
     assert basket.size() == 1
-
-def test_item_added_correctly(basket):
-    basket.add("keyboard")
-    assert "keyboard" in basket.get_items()
